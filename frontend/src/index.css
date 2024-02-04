@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@200;400;600;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  user-select: none !important;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.ant-form-item {
+  margin-bottom: 20px !important;
+}
+
+.hover-text-white:hover {
+  color: white !important;
+  background-color: #ff6347 !important;
+  border: 1px solid #ff6347 !important;
+}
+.hover-text-white-bg-black:hover {
+  color: white !important;
+  background-color: black !important;
+  border: 1px solid black !important;
+}
+.hover-text-primary:hover {
+  color: #ff6347 !important;
+}
+table {
+  border: 1px solid #bbbbbb !important;
+}
+i {
+  font-size: 20px !important;
+}
+
+select {
+  height: 40px !important;
+  border-radius: 0 !important;
+  border: 1px solid #bbbb !important;
+  width: 100% !important;
+}
+
+.course-description {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 4 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
